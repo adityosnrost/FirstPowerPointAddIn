@@ -88,6 +88,7 @@ namespace FirstPowerPointAddIn
         {
             try
             {
+
                 var view = GetSlideShowView();
                 if (view == null) return;
                 if (view.State == PpSlideShowState.ppSlideShowRunning)
